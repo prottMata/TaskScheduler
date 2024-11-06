@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/djam/workspaces/taskjob'
+g++ -Wall -g -c Main.cpp -o Main.o
+g++ -Wall -g -c TaskScheduler.cpp -o TaskScheduler.o
+g++ -Wall -g -o Main Main.o TaskScheduler.o
+./Main
+make: Leaving directory '/home/djam/workspaces/taskjob'
+ 

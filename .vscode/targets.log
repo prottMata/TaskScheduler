@@ -1,0 +1,424 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for x86_64-unknown-linux-gnu
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Nov  5 22:30:58 2024
+
+# Variables
+
+# environment
+MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/djam/.gtkrc:/home/djam/.config/gtkrc
+# environment
+PULSE_SERVER = unix:/run/flatpak/pulse/native
+# environment
+SBX_CHROME_API_RQ = 1
+# environment
+LC_NAME = ru_RU.UTF-8
+# environment
+LC_NUMERIC = ru_RU.UTF-8
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/djam
+# environment
+LC_ADDRESS = ru_RU.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/djam/workspaces/taskjob
+# environment
+ZYPAK_ZYGOTE_STRATEGY_SPAWN = 1
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GI_TYPELIB_PATH = /app/lib/girepository-1.0
+# environment
+MAIL = /var/spool/mail/djam
+# environment
+XDG_DATA_DIRS = /app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/run/host/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/djam/.var/app/com.visualstudio.code/config/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/flatpak/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS := /usr/include
+# environment
+MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.plasma\x2dfallback\x2dsession\x2drestore@autostart.service/memory.pressure
+# environment
+ALSA_CONFIG_DIR = /usr/share/alsa
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/djam/workspaces/taskjob
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'makefile', line 9)
+SRCS = Main.cpp TaskScheduler.cpp
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# environment
+ICEAUTHORITY = /run/user/1000/iceauth_EXyDCz
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+ZYPAK_LIB = /app/bin/../lib
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /app/etc/xdg:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+ALSA_CONFIG_PATH = /usr/share/alsa/alsa-flatpak.conf
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# environment
+FLATPAK_SANDBOX_DIR = /home/djam/.var/app/com.visualstudio.code/sandbox
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 22
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PYTHONUSERBASE = /var/data/python
+# environment
+AT_SPI_BUS_ADDRESS = unix:path=/run/flatpak/at-spi-bus
+# environment
+XDG_DATA_HOME = /home/djam/.var/app/com.visualstudio.code/data
+# environment
+SESSION_MANAGER = local/potato:@/tmp/.ICE-unix/1338,unix/potato:/tmp/.ICE-unix/1338
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/flatpak/bus
+# makefile (from 'makefile', line 7)
+TARGET_DEL = Main
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"ru-ru","resolvedLanguage":"en","defaultMessagesFile":"/app/extra/vscode/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
+# environment
+__EGL_EXTERNAL_PLATFORM_CONFIG_DIRS = /etc/egl/egl_external_platform.d:/usr/lib/x86_64-linux-gnu/GL/egl/egl_external_platform.d:/usr/share/egl/egl_external_platform.d
+# environment
+XKB_DEFAULT_OPTIONS = grp:alt_shift_toggle
+# default
+MAKE_HOST := x86_64-unknown-linux-gnu
+# makefile (from 'makefile', line 11)
+OBJS = $(SRCS:.cpp=.o)
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+LD_LIBRARY_PATH = /app/lib
+# environment
+SANDBOX_LD_LIBRARY_PATH = /app/lib
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /app/bin:/app/bin:/app/bin:/usr/bin:/home/djam/.var/app/com.visualstudio.code/data/node_modules/bin
+# environment
+XCURSOR_PATH = /run/host/user-share/icons:/run/host/share/icons
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = ru_RU.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+DBUS_SYSTEM_BUS_ADDRESS = unix:path=/run/dbus/system_bus_socket
+# environment
+LC_TIME = ru_RU.UTF-8
+# environment
+XDG_CONFIG_HOME = /home/djam/.var/app/com.visualstudio.code/config
+# environment
+INVOCATION_ID = 18ace39198d848e895e92584ef896fbe
+# environment
+LC_TELEPHONE = ru_RU.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasmawayland
+# environment
+GST_PLUGIN_SYSTEM_PATH = /app/lib/gstreamer-1.0:/usr/lib/extensions/gstreamer-1.0:/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = djam
+# environment
+container = flatpak
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1688
+# environment
+NPM_CONFIG_GLOBALCONFIG = /app/etc/npmrc
+# environment
+USER = djam
+# environment
+DISPLAY = :1
+# default
+MAKE_VERSION := 4.4.1
+# environment
+KDE_SESSION_UID = 1000
+# environment
+MANAGERPID = 1148
+# environment
+LC_MEASUREMENT = ru_RU.UTF-8
+# environment
+DEBUGINFOD_URLS = https://debuginfod.archlinux.org 
+# environment
+XKB_DEFAULT_LAYOUT = us,ru
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = ru_RU.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+PULSE_CLIENTCONFIG = /run/flatpak/pulse/config
+# environment
+JOURNAL_STREAM = 9:14711
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/djam/.gtkrc-2.0:/home/djam/.config/gtkrc-2.0
+# environment
+HOME = /home/djam
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1ef9825b-1.94-main.sock
+# environment
+XDG_SESSION_ID = 2
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+XDG_STATE_HOME = /home/djam/.var/app/com.visualstudio.code/.local/state
+# default
+SUFFIXES := 
+# makefile (from 'makefile', line 5)
+TARGET = Main
+# environment
+XDG_CACHE_HOME = /home/djam/.var/app/com.visualstudio.code/cache
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'makefile', line 3)
+CXXFLAGS = -Wall -g
+# environment
+KDE_SESSION_VERSION = 6
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink load
+# makefile (from 'makefile', line 1)
+CXX = g++
+# environment
+FLATPAK_ID = com.visualstudio.code
+# environment
+KDE_FULL_SESSION = true
+# environment
+XDG_MENU_PREFIX = plasma-
+ 
+# environment
+ZYPAK_BIN = /app/bin
+# environment
+LC_IDENTIFICATION = ru_RU.UTF-8
+# environment
+QT_WAYLAND_RECONNECT = 1
+# variable set hash-table stats:
+# Load=142/1024=14%, Rehash=0, Collisions=21/179=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66309, inode 15512823): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cpp
+#  recipe to execute (from 'makefile', line 19):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+Main: Main.o TaskScheduler.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'makefile', line 16):
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 25):
+	rm $(TARGET_DEL) $(OBJS)
+
+# Not a target:
+TaskScheduler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Main.o: Main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Main'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Main.o
+# automatic
+# * := Main
+# automatic
+# < := Main.cpp
+# automatic
+# + := Main.cpp
+# automatic
+# % := 
+# automatic
+# ^ := Main.cpp
+# automatic
+# ? := Main.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'makefile', line 19):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Main run
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+run: Main
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 22):
+	./$(TARGET)
+
+# Not a target:
+Main.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2024-11-04 18:31:06.569496561
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2024-11-04 18:31:06.569496561
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/32=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 154 B / avg = 8 B
+# current buf: size = 8162 B / used = 154 B / count = 19 / avg = 8 B
+
+# strcache performance: lookups = 33 / hit rate = 42%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Tue Nov  5 22:30:59 2024
+
+ 
